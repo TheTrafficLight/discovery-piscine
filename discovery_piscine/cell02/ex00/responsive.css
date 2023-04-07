@@ -1,0 +1,26 @@
+table{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+td {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+td:first-child {
+    background-color: rgb(125, 231, 121)
+}
+
+td:last-child {
+    background-color: rgb(114, 155, 231)
+}

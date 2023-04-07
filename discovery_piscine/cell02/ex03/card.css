@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    text-align: center;
+}
+
+
+table {
+    margin: auto;
+    padding: 0;
+    width: 25%;
+    box-shadow: 0px 0px 8px 0.25px black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+}
+
+
+#name {
+    font-size: 200%;
+    font-weight: bold;
+    height:20px;
+    padding: 0;
+    margin: 0;
+}
+
+#link {
+    background-color: black;
+    color: white;
+    font-size: 130%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    padding: 0;
+    border: none;
+    display: block;
+}
+
+#subtitle {
+    color: grey;
+    font-size: 130%;
+}
+
+p {
+    margin: 0px;
+}
+
+.subdata {
+    height: 50px;
+}
+
+#socials {
+    padding-left: 100px;
+    padding-right: 100px;
+}

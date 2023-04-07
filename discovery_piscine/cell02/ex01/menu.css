@@ -1,0 +1,43 @@
+
+body {
+    background-color: rgb(169, 236, 191);
+}
+
+.dropdown-items {
+    visibility: hidden;
+    background-color: white;
+    width: 150px;
+    text-align: right;
+    border: 1px solid black;
+}
+
+.dropdown-links {
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: box-shadow 200ms ease-out;
+}
+
+#dropdown {
+    background-color: cyan;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#dropdown:hover{
+    background-color: rgb(100, 112, 114);
+}
+
+#dropdown:hover + .dropdown-items{
+    visibility: visible;
+}
+
+.dropdown-items:hover{
+    visibility: visible;
+}
+
+.dropdown-links:hover{
+    box-shadow: 0px 0px 10px 2px black;
+}
